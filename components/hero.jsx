@@ -14,7 +14,8 @@ export default function HeroSection() {
 
             <div className='w-full mt-8 flex justify-between gap-4 '>
                 <button className="w-1/2 py-4 px-8 bg-blue-600 text-white dark:bg-slate-900 shadow-lg">Download CV</button>
-                <button className="w-1/2 py-4 px-8  bg-white dark:bg-slate-100 shadow-lg">Contact</button>
+                <button className="w-1/2 py-4 px-8  bg-white dark:bg-slate-100
+                 shadow-lg">Contact</button>
             </div>
         </div>
     </div>
