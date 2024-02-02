@@ -7,3 +7,11 @@ body{
   margin: 0;
   padding: 0;
 }
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+.test-card-group::-webkit-scrollbar{
+  display: none;
+}

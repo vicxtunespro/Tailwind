@@ -3,11 +3,11 @@ import React from 'react'
 
 export default function HeroSection() {
   return (
-    <div className='h-screen flex flex-col mt-8'>
-        <div className="img h-1/2 bg-blue-100">
+    <div className='flex flex-col mt-8 md:flex-row'>
+        <div className="img md:w-1/2 bg-blue-100">
             <p>Image here</p>
         </div>
-        <div className="profile py-8 px-4 dark:bg-slate-600">
+        <div className="profile md:w-1/2 py-8 px-4 dark:bg-slate-600">
             <p className='text-xl text-slate-500 dark:text-slate-200'>Frontend - developer</p>
             <p className='mt-4 text-5xl font-bold dark:text-white'><span className='font-light'>Hi, I'm</span> Victor <br></br> Nuwarimpa.</p>
             <p className="description mt-8 dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, placeat, eveniet repellendus blanditiis ullam quam ipsa error illum dolores quo alias atque. Aliquam ipsa libero eligendi natus quae nulla exercitationem.

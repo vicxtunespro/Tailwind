@@ -7,7 +7,7 @@ export default function Testimonial() {
             <p className="text-3xl font-bold dark:text-white">Testimonal</p>
             <div className="h-0.5 w-32 bg-slate-200 dark:bg-slate-500 after:block after:h-full after:w-8 after:bg-blue-500 dark:after:bg-slate-200 after:content-['']"></div>
         </div>
-        <div className="flex justify-start gap-8 overflow-x-auto overflow-y-hidden px-4 py-16 snap-x snap-mandatory" >
+        <div className="test-card-group flex justify-start gap-8 overflow-x-auto overflow-y-hidden px-4 py-16 snap-x snap-mandatory" >
             <TestimonialCard />
             <TestimonialCard />
         </div>
@@ -16,7 +16,7 @@ export default function Testimonial() {
 }
 function TestimonialCard(){
     return(
-        <div className="h-98 flex-shrink-0 relative max-w-80 rounded-sm bg-white dark:bg-slate-500 p-8 shadow-xl border border-slate-100 dark:border-slate-400 snap-center">
+        <div className="h-98 flex-shrink-0 relative max-w-80 rounded-sm bg-white dark:bg-slate-700 p-8 shadow-xl border border-slate-100 dark:border-slate-500 snap-center">
             <div className="quotes absolute text-9xl text-slate-200">"</div>
             <div className="quotes absolute bottom-[-60px] right-5 text-9xl text-slate-200">"</div>
             <div className="img absolute left-[122px] top-[-40px] h-20 w-20 rounded-full bg-orange-400"></div>
