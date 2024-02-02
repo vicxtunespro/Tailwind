@@ -14,7 +14,7 @@ export default function HeroSection() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut unde obcaecati delectus in. Reprehenderit placeat quaerat necessitatibus ab doloribus recusandae quia exercitationem, sint animi odio vel maxime in repellendus quam!</p>
 
             <div className='w-full mt-8 flex justify-between gap-4 '>
-                <button className="w-1/2 py-4 px-8 bg-blue-600 text-white dark:bg-blue-500 shadow-lg">
+                <button className="w-1/2 py-4 px-4 bg-blue-600 dark:bg-slate-800  text-white shadow-lg">
                   <a href="/full-stack.pdf" download >Download CV</a>
                 </button>
                 <button className="w-1/2 py-4 px-8  bg-white dark:bg-slate-200
