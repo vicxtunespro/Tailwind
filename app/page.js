@@ -11,7 +11,6 @@ export default function Home() {
         <SkillSection></SkillSection>
         <Testimonial/>
         <PriceSection/>
-        <FunFact/>
       </div>
     </main>
   );
