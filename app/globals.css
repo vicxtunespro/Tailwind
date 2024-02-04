@@ -26,6 +26,10 @@ body::-webkit-scrollbar{
   left: 0;
   animation: slideIn 10s ease-in finite;
 }
+.educard{
+  border-left:0.5px rgb(219, 219, 219) solid;
+  border-bottom:0.5px rgb(219, 219, 219) solid;
+}
 
 .active{
   transform: rotate(45deg);

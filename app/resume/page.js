@@ -4,9 +4,11 @@ import React from 'react'
 
 export default function Resume() {
   return (
-    <div>
+    <div className='w-full min-h-screen dark:bg-slate-600 bg-slate-100 overflow-hidden'>
         <PageHeader title={'Resume'}></PageHeader>
-        <EduBackground/>
+        <div className="main-conten p-4">
+          <EduBackground/>
+        </div>
     </div>
   )
 }
