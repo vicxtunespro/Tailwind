@@ -18,7 +18,7 @@ export default function HeroSection() {
                   <a href="/full-stack.pdf" download >Download CV</a>
                 </button>
                 <button className="w-1/2 py-4 px-8  bg-white dark:bg-slate-200
-                 shadow-lg">Contact</button>
+                 shadow-lg"><a href="tel:0758019072">Contact me</a></button>
             </div>
         </div>
     </div>

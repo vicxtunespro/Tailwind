@@ -1,14 +1,12 @@
 import React from 'react'
 import { FiPenTool } from "react-icons/fi";
+import SectionHeader from './section-header';
 
 
 export default function Skill() {
   return (
 <div className="skill my-8">
-  <div className="styled-title">
-    <p className="text-3xl font-bold dark:text-white">What I Do</p>
-    <div className="h-0.5 w-32 bg-slate-200 dark:bg-slate-500 after:block after:h-full after:w-8 after:bg-blue-500 dark:after:bg-slate-200 after:content-['']"></div>
-  </div>
+  <SectionHeader title={"What I Do"}/>
   <div className="activities my-8 flex flex-col md:flex-row flex-wrap">
     <div className="flex basis-1/2">
       <div className="icon h-16 min-w-16 flex justify-center items-center text-4xl rounded-lg bg-slate-200 dark:bg-slate-700 dark:text-white lg:max-w-16"><FiPenTool/></div>

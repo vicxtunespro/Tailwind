@@ -15,3 +15,27 @@ body::-webkit-scrollbar{
 .test-card-group::-webkit-scrollbar{
   display: none;
 }
+.hidden{
+  opacity: 0;
+}
+
+.visible{
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: slideIn 10s ease-in finite;
+}
+
+.active{
+  transform: rotate(45deg);
+}
+
+@keyframes slideIn {
+  0%{
+    background: yellow;
+  }
+  100%{
+    background: blue;
+  }
+}

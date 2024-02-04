@@ -1,12 +1,10 @@
 import React from 'react'
+import SectionHeader from './section-header'
 
 export default function Testimonial() {
   return (
     <div className="w-full">
-        <div className="styled-title">
-            <p className="text-3xl font-bold dark:text-white">Testimonal</p>
-            <div className="h-0.5 w-32 bg-slate-200 dark:bg-slate-500 after:block after:h-full after:w-8 after:bg-blue-500 dark:after:bg-slate-200 after:content-['']"></div>
-        </div>
+        <SectionHeader title={"Testimonials"}/>
         <div className="test-card-group flex justify-start gap-8 overflow-x-auto overflow-y-hidden px-4 py-16 snap-x snap-mandatory" >
             <TestimonialCard />
             <TestimonialCard />
