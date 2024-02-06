@@ -17,7 +17,7 @@ export default function PriceSection() {
 }
 function PriceCard() {
     return(
-        <div className="price-card w-92  h-92 bg-white dark:bg-slate-700 rounded-lg shadow-lg border border-slate-200 dark:border-slate-500">
+        <div className="price-card max-w-92  h-92 bg-white dark:bg-slate-700 rounded-lg shadow-lg border border-slate-200 dark:border-slate-500">
             <div className="content p-8">
                 <p className="title text-2xl font-bold mb-4 dark:text-white">Lorem ipsum </p>
                 <p className="price text-4xl font-bold dark:text-white">$65<em className="text-normal font-light text-sm pl-3 dark:text-white">/period</em></p>

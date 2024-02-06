@@ -13,7 +13,7 @@ export default function EduBackground() {
 }
 function EduCard(){
   return(
-          <div className="educard bg-white dark:bg-slate-800 h-fit w-full p-8 relative">
+          <div className="edu-card bg-white dark:bg-slate-800 h-fit w-full p-8 relative">
             <p className="text-slate-400 mb-2 mx-10">Institute of Learning</p>
             <p className="font-bold text-xl dark:text-white tracking-wider mb-2">Frontend Development</p>
             <p className="dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consectetur aspernatur voluptates perspiciatis atque enim.</p>
