@@ -43,3 +43,7 @@ body::-webkit-scrollbar{
     background: blue;
   }
 }
+
+.project-container:hover .project-description{
+  opacity: 0.9;
+}

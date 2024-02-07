@@ -3,7 +3,7 @@ import SectionHeader from './section-header'
 
 export default function Skills() {
   return (
-    <div className='mt-16 md:mt-0 md:w-3/5'>
+    <div className='md:w-3/5'>
         <DesignSkills/>
         <CodingSkills/>
         <Knowledge/>
