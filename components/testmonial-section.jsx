@@ -14,7 +14,7 @@ export default function Testimonial() {
 }
 function TestimonialCard(){
     return(
-        <div className="h-98 flex-shrink-0 relative max-w-80 rounded-sm bg-white dark:bg-slate-700 p-8 shadow-xl border border-slate-100 dark:border-slate-500 snap-center">
+        <div className="h-98 flex-shrink-0 relative max-w-72 rounded-sm bg-white dark:bg-slate-700 p-8 shadow-xl border border-slate-100 dark:border-slate-500 snap-center">
             <div className="quotes absolute text-9xl text-slate-200">"</div>
             <div className="quotes absolute bottom-[-60px] right-5 text-9xl text-slate-200">"</div>
             <div className="img absolute left-[122px] top-[-40px] h-20 w-20 rounded-full bg-orange-400"></div>
