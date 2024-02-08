@@ -25,7 +25,7 @@ export default function MobileMenu() {
 }
 function MenuBody({showMenu}){
   return(
-    <div className={`${showMenu ? 'visible':'hidden'} nav h-screen w-full mt-12 bg-slate-50 z-10 absolute left-0 bottom-0 top-4`}>
+    <div className={`${showMenu ? 'visible':'hidden'} nav h-full w-full mt-12 bg-slate-50 z-10 fixed top-0 left-0 bg-opacity-80`}>
       <div className="detailed h-72 bg-slate-100 p-4 grid place-items-center">
         <div className="img w-32 h-32 bg-orange-300 rounded-full"></div>
         <p className="text-3xl font-black tracking-3">Victor Nuwarimpa</p>
