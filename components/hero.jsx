@@ -1,9 +1,16 @@
+"use client"
+import { motion } from 'framer-motion'
 import Link from 'next/link'
 import React from 'react'
 
 export default function HeroSection() {
   return (
-    <div className='flex flex-col mt-8 md:flex-row'>
+    <motion.div 
+    initial={{scale:1.5, opacity: 0}}
+    animate={{scale: 1, opacity: 1}}
+    transiiton={{duration: 0.5, ease:'ease-in'}}
+    className='flex flex-col mt-8 md:flex-row'
+    >
         <div className="img md:w-1/2 bg-blue-100">
             <p>Image here</p>
         </div>
@@ -21,6 +28,6 @@ export default function HeroSection() {
                  shadow-lg"><a href="tel:0758019072">Contact me</a></button>
             </div>
         </div>
-    </div>
+    </motion.div>
   )
 }

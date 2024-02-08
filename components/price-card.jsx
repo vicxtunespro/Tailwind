@@ -1,4 +1,6 @@
+"use client"
 import React from 'react'
+import { motion } from "framer-motion";
 
 export default function PriceSection() {
   return (
@@ -7,11 +9,16 @@ export default function PriceSection() {
             <p className="text-3xl font-bold dark:text-white">Pricing</p>
             <div className="h-0.5 w-32 bg-slate-200 dark:bg-slate-500 after:block after:h-full after:w-8 after:bg-blue-500 dark:after:bg-slate-200 after:content-['']"></div>
         </div>
-        <div className="flex flex-col md:flex-row justify-center gap-4">
+        <motion.div
+         initial={{ opacity: 0, y: 30 }} // Initial state of the element
+         animate={{ opacity: 1, y: 0 }} // Animation when the element enters the viewport
+         transition={{ duration: 0.5 }} // Duration of the animation
+        className="flex flex-col md:flex-row justify-center gap-4"
+        >
             <PriceCard/>
             <PriceCard/>
             <PriceCard/>
-        </div>
+        </motion.div>
     </div> 
   )
 }
