@@ -1,18 +1,23 @@
 "use client"
 import React from 'react'
 import { motion } from 'framer-motion';
+import { useInView } from 'react-intersection-observer'
 import { FiPenTool } from "react-icons/fi";
 import SectionHeader from './section-header';
 
 
 export default function Skill() {
+
+  const {ref, inView} = useInView({triggerOnce:false, threshold: 0.2});
+
   return (
 <div className="skill my-8">
   <SectionHeader title={"What I Do"}/>
   <div className="activities my-8 flex flex-col md:flex-row flex-wrap">
-    <motion.div 
+    <motion.div
+    ref={ref} 
     initial={{opcacity: 0, y: 20}}
-    amnimate={{opacity: 1, y: 0}}
+    animate={{opacity: inView? 1 : 0, y: 0}}
     transition={{duration: 0.4}}
     className="flex basis-1/2">
       <div className="icon h-16 min-w-16 flex justify-center items-center text-4xl rounded-lg bg-slate-200 dark:bg-slate-700 dark:text-white lg:max-w-16"><FiPenTool/></div>
