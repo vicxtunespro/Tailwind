@@ -21,10 +21,9 @@ body::-webkit-scrollbar{
 
 .visible{
   opacity: 1;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  animation: slideIn 10s ease-in finite;
 }
 .edu-card, .exp-card{
   border-left:0.5px rgb(219, 219, 219) solid;
@@ -33,15 +32,6 @@ body::-webkit-scrollbar{
 
 .active{
   transform: rotate(45deg);
-}
-
-@keyframes slideIn {
-  0%{
-    background: yellow;
-  }
-  100%{
-    background: blue;
-  }
 }
 
 .project-container:hover .project-description{

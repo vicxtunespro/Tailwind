@@ -1,7 +1,9 @@
 "use client"
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+
 
 export default function HeroSection() {
   return (
@@ -11,8 +13,9 @@ export default function HeroSection() {
     transiiton={{duration: 0.5, ease:'ease-in'}}
     className='flex flex-col mt-8 md:flex-row'
     >
-        <div className="img md:w-1/2 bg-blue-100">
-            <p>Image here</p>
+        <div className="img md:w-1/2 h-72 bg-blue-100 relative">
+            <Image src="/vic.jpg" layout='reponsive' objectFit='cover'
+           fill></Image>
         </div>
         <div className="profile md:w-1/2 py-8 px-4 dark:bg-slate-600">
             <p className='text-xl text-slate-500 dark:text-slate-200'>Frontend - developer</p>
