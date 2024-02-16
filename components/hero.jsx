@@ -11,9 +11,9 @@ export default function HeroSection() {
     initial={{scale:1.5, opacity: 0}}
     animate={{scale: 1, opacity: 1}}
     transiiton={{duration: 0.5, ease:'ease-in'}}
-    className='flex flex-col mt-8 md:flex-row'
+    className='flex flex-col mt-12 md:flex-row'
     >
-        <div className="img md:w-1/2 h-72 bg-blue-100 relative">
+        <div className="img md:w-1/2 sm bg-blue-100 relative">
             <Image src="/vic.jpg" layout='reponsive' objectFit='cover'
            fill></Image>
         </div>
