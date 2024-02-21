@@ -21,9 +21,6 @@ body::-webkit-scrollbar{
 
 .visible{
   opacity: 1;
-  position: fixed;
-  top: 0;
-  left: 0;
 }
 .edu-card, .exp-card{
   border-left:0.5px rgb(219, 219, 219) solid;

@@ -27,11 +27,11 @@ export default function MobileMenu() {
 function MenuBody({showMenu}){
   return(
     <motion.div 
-    initial={{x:200}}
-    animate={{x: 0}}
+    initial={{x: showMenu ? 0 : 200}}
+    animate={{x: showMenu ? 0 : 200}}
     transition={{duration: 4}}
     
-    className={`${showMenu ? 'visible':'hidden'} nav h-full w-full mt-12 bg-slate-50 z-10 fixed top-0 left-0 bg-opacity-80`}>
+    className={`${showMenu ? 'visible':'hidden'} nav h-full w-[80%] mt-12 bg-slate-50 z-10 fixed top-0 right-0 bg-opacity-80 shadow-lg`}>
       <div className="detailed h-72 bg-slate-100 p-4 grid place-items-center">
         <div className="img w-32 h-32 bg-orange-300 rounded-full"></div>
         <p className="text-3xl font-black tracking-3">Victor Nuwarimpa</p>
