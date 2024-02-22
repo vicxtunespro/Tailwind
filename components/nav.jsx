@@ -4,6 +4,7 @@ import {useEffect} from 'react'
 import {useState} from 'react'
 import { AiOutlineMenu } from "react-icons/ai";
 import { motion } from 'framer-motion'
+import Link from 'next/link';
 
 
 export default function MobileMenu() {
@@ -16,9 +17,11 @@ export default function MobileMenu() {
 
   return (
     <div>
-      <div className='w-screen h-12 fixed top-0 bg-blue-600 text-white pl-8 pr-8 flex justify-between items-center z-20 shadow-lg'>
+      <div className='mobile-menu w-screen h-12 fixed top-0 bg-blue-600 text-white pl-8 pr-8 flex justify-between items-center z-20 shadow-lg'>
           <p>Logo</p>
-          <AiOutlineMenu  className={`${clicked ? 'active': ''} toggler`} onClick={handleClick}></AiOutlineMenu>
+          <div className="toggler">
+            <AiOutlineMenu  className={`${clicked ? 'active': ''} toggler`} onClick={handleClick}></AiOutlineMenu>
+          </div>
       </div>
       <MenuBody showMenu = {clicked}/>
     </div>

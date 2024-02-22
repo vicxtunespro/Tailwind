@@ -34,3 +34,13 @@ body::-webkit-scrollbar{
 .project-container:hover .project-description{
   opacity: 0.9;
 }
+@media (max-width: 680px){
+    .desktop-menu{
+      display: none;
+    }
+}
+@media (min-width: 680px){
+    .mobile-menu{
+      display: none;
+    }
+}
