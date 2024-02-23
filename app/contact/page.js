@@ -6,8 +6,8 @@ import React from 'react'
 export default function Contact() {
   return (
     <div className='dark:bg-slate-800'>
-        <PageHeader title={"Contact"} />
-        <div class="main-content px-8 md:px-16">
+        <PageHeader title={"Get in Touch"} />
+        <div className="main-content px-8 md:px-16">
           <ContactInfo/>
           <ContactForm/>
         </div>
