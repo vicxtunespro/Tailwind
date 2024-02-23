@@ -26,7 +26,7 @@ export default function HeroSection() {
     className='flex flex-col mt-12 md:flex-row md:h-screen'
     >
         <div className="img md:w-1/2 h-72 md:h-full bg-blue-100 relative">
-            <Image src="/vic.jpg" layout='fill' className="object-contain" alt="ceo"></Image>
+            <Image src="/vic.jpg" layout='fill' className="object-cover" alt="ceo"></Image>
         </div>
         <div className="profile md:w-1/2 md:flex md:flex-col md:justify-center py-8 px-4 dark:bg-slate-600">
             <motion.p
