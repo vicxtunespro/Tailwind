@@ -2,7 +2,6 @@
 import React from 'react'
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer'
-import { FiPenTool } from "react-icons/fi";
 import SectionHeader from './section-header';
 import Services from '@/data/skills';
 
@@ -17,10 +16,9 @@ export default function Skill({id, service, icon, description}) {
     {
     Services.map((skill)=>(
       <motion.div
-      key={skill.id}
-      ref={ref} 
+      key={skill.id} 
       initial={{opcacity: 0, y: 20}}
-      animate={{opacity: inView? 1 : 0, y: 0}}
+      animate={{opacity: 1, y: 0}}
       transition={{duration: 0.4}}
       className="flex basis-1/2">
         <div className="icon h-16 min-w-16 flex justify-center items-center text-4xl rounded-lg bg-slate-200 dark:bg-slate-700 dark:text-white lg:max-w-16">{skill.icon}</div>

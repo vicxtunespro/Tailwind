@@ -6,7 +6,7 @@ import React from 'react'
 export default function Contact() {
   return (
     <div className='dark:bg-slate-800'>
-        <PageHeader title={"Get in Touch"} />
+        <PageHeader title={"Contact Me"} />
         <div className="main-content px-8 md:px-16">
           <ContactInfo/>
           <ContactForm/>
