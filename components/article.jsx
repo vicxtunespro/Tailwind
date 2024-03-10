@@ -32,13 +32,18 @@ function ArticleRight ({title, description}){
     transition={{ duration: 0.5, ease: "easeIn"}}
     className="md:p-16 flex flex-col md:flex-row gap-8">
 
-      <div className="gif h-full bg-slate-300 md:w-1/2 rounded overflow-hidden relative">
-        {/* <Image src="https://cdn.dribbble.com/users/729829/screenshots/3088470/galshir-pen-tool-creation.gif" layout="fill" className="object-cover"> </Image> */}
+      <div className="gif h-fill bg-slate-300 md:w-1/2 rounded overflow-hidden relative">
+      <Image
+        src="/graphics.jpg"
+        layout='fill' 
+        className="object-cover"
+        alt="Graphics article"
+      ></Image>
       </div>
       <div className="content text-balance md:w-1/2 md:text-left flex flex-col gap-8 dark:text-white ">
-        <p className="text-8xl tex">{title}</p>
+        <p className="text-6xl md:text-8xl text-orange-500">{title}</p>
         <p>{description}</p>
-        <button className="bg-blue-600 dark:bg-slate-100 dark:text-black py-4 px-8 rounded text-white md:w-72 ">Get started with a pdf <span className="font-black text-xl">!</span></button>
+        <button className="bg-smoky dark:bg-slate-100 dark:text-black py-4 px-8 rounded text-white md:w-72 ">Get started with a pdf <span className="font-black text-xl">!</span></button>
       </div>
     </motion.div>
   )
@@ -58,13 +63,18 @@ function ArticleLeft ({title, description}){
 
       
       <div className="content text-balance md:w-1/2 md:text-left flex flex-col gap-8 dark:text-white ">
-        <p className="text-8xl tex">{title}</p>
+        <p className="text-6xl md:text-8xl text-orange-500">{title}</p>
         <p>{description}</p>
-        <button className="bg-blue-600 dark:bg-slate-100 dark:text-black py-4 px-8 rounded text-white md:w-72 ">Get started with a pdf <span className="font-black text-xl">!</span></button>
+        <button className="bg-smoky dark:bg-slate-100 dark:text-black py-4 px-8 rounded text-white md:w-72 ">Get started with a pdf <span className="font-black text-xl">!</span></button>
       </div>
 
-      <div className="gif h-full bg-slate-300 md:w-1/2 rounded overflow-hidden relative">
-        {/* <Image src="https://cdn.dribbble.com/users/729829/screenshots/3088470/galshir-pen-tool-creation.gif" layout="fill" className="object-cover"> </Image> */}
+      <div className="gif h-fill bg-slate-300 md:w-1/2 rounded overflow-hidden relative">
+      <Image
+        src="/graphics.jpg"
+        layout='fill' 
+        className="object-cover"
+        alt="Graphics article"
+      ></Image>
       </div>
     </motion.div>
   )

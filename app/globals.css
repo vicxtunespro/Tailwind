@@ -34,6 +34,14 @@ body::-webkit-scrollbar{
 .project-container:hover .project-description{
   opacity: 0.9;
 }
+
+#resume{
+  background: linear-gradient(to top, rgb(255, 255, 255), rgba(255, 255, 255, 0.507)), url("/resume.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-size:cover;
+}
 @media (max-width: 680px){
     .desktop-menu{
       display: none;

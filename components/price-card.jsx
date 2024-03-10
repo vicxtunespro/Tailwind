@@ -34,7 +34,7 @@ function PriceCard() {
             <div className="content p-8">
                 <p className="title text-2xl font-bold mb-4 dark:text-white">Lorem ipsum </p>
                 <p className="price text-4xl font-bold dark:text-white">$65<em className="text-normal font-light text-sm pl-3 dark:text-white">/period</em></p>
-                <button className="mt-4 bg-blue-500 dark:bg-blue-300 dark:text-slate-800 py-4 px-8 shadow-lg text-white">Enroll now</button>
+                <button className="mt-4 bg-smoky dark:bg-slate-300 dark:text-slate-800 py-4 px-8 shadow-lg text-white">Enroll now</button>
                 <p className="description my-8 leading-8 dark:text-white">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi molestias dicta laudantium.
                 </p>
