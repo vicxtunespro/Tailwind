@@ -15,7 +15,7 @@ export default function DesktopMenu() {
             <Link href="/resume">Resume</Link>
             <Link href="/portfolio">Portfolio</Link>
             <Link href="/services">services</Link>
-            <Link href="/contect">Contact</Link>
+            <Link href="/contact">Contact</Link>
         </ul>
         </div>
         <div className="socials flex gap-4 text-slate-100 dark:text-slate-800">

@@ -19,6 +19,9 @@ module.exports = {
         'pretty': '#96A4D3',
         'buddy': '#AA8F76',
       },
+      screens: {
+        'ms': '380px'
+      }
     },
   },
   plugins: [],

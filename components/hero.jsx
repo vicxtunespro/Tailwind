@@ -47,7 +47,7 @@ export default function HeroSection() {
 
             <div className='w-full mt-8 flex justify-between gap-4 '>
                 <button className="w-1/2 py-4 px-4 bg-smoky dark:bg-slate-800 hover:bg-orange-600 transition-all duration-500 ease-in-out text-white shadow-lg">
-                  <a href="/full-stack.pdf" download >Download CV</a>
+                  <a href="/vicit-cv.pdf" download >Download CV</a>
                 </button>
                 <button className="w-1/2 py-4 px-8  bg-slate-50 hover:bg-sky-200 transition-all duration-500 ease-in-out dark:bg-slate-200
                  shadow-lg"><a href="tel:0758019072">Contact me</a></button>
